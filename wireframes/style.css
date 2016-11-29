@@ -9,7 +9,9 @@ font-size: 160%;
 color: rgb(142,120,97)}
 
 h2{font-family: 'Open Sans', sans-serif;
-}
+font-size: 80%;
+text-transform: uppercase;
+color: rgb(132,195,132)}
 
 p{font-family: 'Georgia', serif}
 
