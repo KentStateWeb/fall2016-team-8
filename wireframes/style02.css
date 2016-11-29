@@ -4,14 +4,8 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1{font-family: 'Open Sans', sans-serif;
-font-size: 160%;
-color: rgb(142,120,97)}
-
-h2{font-family: 'Open Sans', sans-serif;
-}
-
-p{font-family: 'Georgia', serif}
+h1{font-family: 'Roboto', san-serif;
+font-size: 200%;}
 
 div, section, main, aside, header, footer {
   border: 1px solid lightgray;
