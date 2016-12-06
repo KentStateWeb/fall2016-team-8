@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AROMA Menu</title>
+  <meta name="description" content="Page Description Goes Here">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neuton:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+</head>
+<body>
+<nav>
+  <div class="span">
+    <img class="logo" src="images/aromalogocolor.svg">
+  </div>
+  <ul>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
+        <img src="images/ham.svg">
+      </a>
+      <div class="dropdown-content" id="myDropdown">
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="menu.html">Menu</a></h1>
+        <h1><a href="about.html">About</a></h1>
+      </div>
+    </li>
+  </ul>
+</nav>
+<main>
+    <div class="splashtwo-img viewport" content="width=device-width, initial-scale=1.0">
+      <h1>We proudly serve the rarest coffee &amp; espresso beans, single in origin
+      &amp; roasted right here in Kent</h1>
+    </div>
+  <div class="scroll">
+  <div class="menu">
+    <h1>Drinks</h1>
+  <div class="quad-flex">
+  <div class="menu-box">
+    <div class="menu-content">
+      <h2> Brewed Coffee </h2>
+        <div class="two-column">
+          <div>
+            <h3>Hot Coffee</h3>
+            <h3>Pour Over</h3>
+            <h3>Iced Coffee</h3>
+            <h3>By The Bean</h3>
+          </div>
+          <div>
+            <h4>2.00 2.15 2.25</h4>
+            <h4>2.50 3.00 3.25</h4>
+            <h4>2.25 2.50 2.85</h4>
+            <h4>10.25 half bag<br>17.95 full bag</h4>
+        </div>
+      </div>
+    </div>
+    <div class="menu-content">
+      <h2> Espresso &amp; More </h2>
+        <div class="two-column">
+          <div>
+            <h3>Espresso</h3>
+            <h3>Cafe Americano</h3>
+            <h3>Cuppucino</h3>
+            <h3>Classic Latte</h3>
+            <h3>Flavored Latte</h3>
+            <h3>Mocha</h3>
+          </div>
+          <div>
+            <h4>2.25 2.50 2.85</h4>
+            <h4>2.50 2.75 3.25</h4>
+            <h4>3.15 3.55 4.15</h4>
+            <h4>3.25 3.65 4.25</h4>
+            <h4>3.95 4.25 4.75</h4>
+            <h4>4.50 4.80 5.30</h4>
+        </div>
+      </div>
+      <h3>Flavors</h3>
+      <div class="two-column">
+        <h4>Vanilla**, Honey-vanilla, Hazelnut**, Caramel**, Almond**, Coconut**,
+        Peppermint, Chocolate, White Chocolate, Cinnamon, Pumpkin Spice,
+        Raspberry**, Butterscotch, Peanut butter, Blackberry, Irish Crème,
+        English Toffee, Apple,*available in sugar free</h4>
+      </div>
+    </div>
+  </div>
+  <div class="quad-flex">
+    <div class="menu-box">
+    <div class="menu-content">
+      <h2>Teas</h2>
+        <div class="two-column">
+          <div>
+            <h3>Hot Tea</h3>
+            <h3>Iced Tea</h3>
+          </div>
+          <div>
+            <h4>2.50</h4>
+            <h4>2.50</h4>
+        </div>
+      </div>
+      <div class="two-column">
+        <h4>English Breakfast, Moto Chai, Morroccan Mint Green Tea,
+        Decaf Ginger Tumeric, Gunpowder Green, Earl Grey</h4>
+      </div>
+    </div>
+    <div class="menu-content">
+      <h2>Coffee Smoothies</h2>
+      <div class="two-column">
+        <h4>Turn your favorite latte or mocha into a blended treat! Can be
+            made decaf &amp; with any kind of milk.</h4>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+      <h1>Pastries</h1>
+      <div class="menu-box">
+      <div class="menu-content">
+      <div class="two-column">
+        <div>
+          <h3>Muffin</h3>
+          <h3>Belgian Waffle</h3>
+          <h3>Cinnamon Scone</h3>
+          <h3>Almond Biscotti</h3>
+          <h3>Choc Chip Banana Bread</h3>
+          <h3>Zingerman's Coffee Cake</h3>
+          <h3>Gourmet Cookie</h3>
+        </div>
+        <div>
+          <h4>3.95</h4>
+          <h4>2.95</h4>
+          <h4>2.95</h4>
+          <h4>4.25</h4>
+          <h4>4.25</h4>
+          <h4>2.45</h4>
+          <h4>2.45</h4>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer>
+
+</footer>
+    </main>
+  </body>
+
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+         <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+</html>
