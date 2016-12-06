@@ -6,36 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+
   </head>
   <body>
        <!-- The page content goes here -->
-       <h1>Home</h1>
-
+    <nav>
+      <div class= "span">
+        <img class="logo" src="images/aromalogocolor.svg">
+      </div>
+      <ul>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
+            <img src="images/ham.svg">
+          </a>
+          <div class="dropdown-content" id="myDropdown">
+            <h1><a href="index.html">Home</a></h1>
+            <h1><a href="menu.html">Menu</a></h1>
+            <h1><a href="about.html">About</a></h1>
+            <div class="two-column">
+          </div>
+        </li>
+      </ul>
+    </nav>
+     <main>
+    <div class="splash-img">
+      <div class="spanred">
        <h2>Monthly Special:</h2>
-       <h3>Pumpkin Spice Latte & Almond Biscotti</h3>
-       <p>Warm up those chilled bones this Winter with our fresh and flavorful combo<br>
-       <div= "links"> See Full Menu <link href=#> </div></p>
+       <h1>Pumpkin Spice Latte &amp; Almond Biscotti</h1>
+       <p>Warm up those chilled bones this Winter with our fresh and flavorful
+         combo.
+       </p>
+       <h2><a href="menu.html">See Full Menu</a></h2>
+     </div>
+    </div>
+  <div class="home-content">
+    <div class="two-column">
+    </div>
+    <div class="menu-box">
+    <div class="menu-content">
+      <h1>Hours &amp; Location</h1>
+    <div class="two-column">
+      <div>
+       <h3>Mon-Fri</h3>
+       <h4>6:00am-10:30pm</h4>
+       <h3>Saturday</h3>
+       <h4>7:00am-3:00pm</h4>
+       <h3>Sunday</h3>
+       <h4>7:30am-3:00pm</h4>
+     </div>
+     <div>
+       <h3>Kent</h3><h4>6110 Horning Rd., <br> Kent, OH 44240<br>Phone: <a>(330)
+      672-3031</a></h4>
+      <br><br><h3>Columbus</h3><h4>5883 High St.,<br>Columbus, OH 43085<br>
+        <a>Phone: (330) 854-8583</a></h4>
+     </div>
+   </div>
+ </div>
+  <div class="menu-content">
+    <h1>Upcoming Events</h1>
+   <h2>1/31: African Coffees Tasting </h2>
+   <h2>2/7: AROMA Signature Tea Blends</h2>
+   <h2>2/14: Valentine’s Day Coffee &amp; Chocolate Pairing</h2>
+   <h2>2/21 AROMA Signature Tea Blends</h2>
+    <h2>2/28: AROMA Classic Coffee Blends</h2>
+    <h2>3/7: Green Teas</h2>
+ </div>
+</div>
+ </div>
+  </main>
 
-       <h2>Hours</h2>
-       <ul>
-         <li>Monday-Friday: 6:00AM - 10:30PM</li>
-         <li>Saturday: 7:00AM - 3:00PM</li>
-         <li>Sunday: 7:30AM - 3:00PM</li>
-       </ul>
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-       <h2>Locations</h2>
-       <ul>
-         <li>Kent<br>
-           6110 Horning Rd., Kent, OH 44240<br>
-           Phone:  (330) 672-3031</li>
-         <li>Columbus<br>
-            5883 High St., Columbus, OH 43085<br>
-            Phone: (330) 854-8583</li>
-       </ul>
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
 
-       <h2>Upcoming Event</h2>
-         <p>1/31: African Coffees Tasting</p>
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+         <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
+
+
   </body>
 </html>
