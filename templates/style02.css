@@ -20,6 +20,8 @@ background-size: cover;
 height: 80vh;
 padding: 0em;}
 
+ul{list-style-type: none;}
+
 div.intro-text{
  padding: 3em;
  background-image: url("../images/aroma-linear element.svg");
@@ -34,8 +36,8 @@ h2{font-family: 'Raleway', sans-serif;
 text-transform: uppercase;
 font-weight: regular;
 font-size: 120%;
-color: rgb(142,120,97);
-background-color: rgba(211,209,193,0.65);
+color: white;
+background-color: rgba(88,0,13,.75);
 padding: .7em;
 margin: 0;
 letter-spacing: 3px;}
@@ -50,7 +52,8 @@ h3{font-family: 'Open Sans', sans-serif;
 p{font-family: 'Open Sans', sans-serif;
   padding: 3em;
   font-size: 90%;
-  line-height:160%;}
+  line-height:160%;
+  color: rgb(142,120,97);}
 
   /* First Row */
   .first-row .box{background-color: white;}
