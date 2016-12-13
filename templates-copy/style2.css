@@ -244,6 +244,23 @@ a {
   flex-direction: column;
 }
 
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+footer h4 {
+  padding: 20px;
+}
+
+footer h3 {
+  padding: 20px;
+}
+
 @media screen and (max-width: 800px) {
   .menu-text{
     visibility: hidden;
