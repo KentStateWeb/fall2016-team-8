@@ -336,6 +336,7 @@ footer h3 {
   .home-content {
     margin-top: 1050px;
     padding: 50px 0px 100px 0px;
+    justify-content: center;
   }
 
   .home-content .menu-content{
