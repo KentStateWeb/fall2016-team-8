@@ -30,7 +30,10 @@ div.intro-text{
 
 h1{font-family: 'Raleway', sans-serif;
 font-size: 180%;
-color: rgb(142,120,97)}
+color: rgb(88,0,13);
+text-align: center;
+text-transform: uppercase;
+margin: .7em;}
 
 h2{font-family: 'Raleway', sans-serif;
 text-transform: uppercase;
@@ -69,14 +72,12 @@ a{font-family: 'Raleway', sans-serif;
   background-color: rgba(211,209,193,.5);
   padding: .8em;
   margin-left: 1em;
-  margin-bottom: 1em;
   text-decoration: none;}
 
 a:hover{background-color: rgba(211,209,193,.8);}
 
-.logo img{display: block;
-  align: center;
-  margin: 1em;}
+.logo{margin: .7em;
+text-align:center;}
 
   /* First Row */
 .first-row{max-width: 800px;}
