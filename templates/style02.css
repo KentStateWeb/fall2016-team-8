@@ -41,14 +41,21 @@ background-color: rgba(88,0,13,.75);
 padding: .7em;
 margin: 0;
 letter-spacing: 3px;
-text-align: center;}
+text-align: left;}
 
 h3{font-family: 'Open Sans', sans-serif;
-  padding: 3em;
+  padding: 1em;
   font-size: 110%;
   font-weight: bold;
   line-height:160%;
   color: rgb(142,120,97);}
+
+  h4{font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    font-size: 110%;
+    font-weight: bold;
+    line-height:160%;
+    color: rgb(142,120,97);}
 
 p{font-family: 'Open Sans', sans-serif;
   padding: 3em;
@@ -56,6 +63,20 @@ p{font-family: 'Open Sans', sans-serif;
   line-height:160%;
   color: rgb(142,120,97);
   max-width: 400px;}
+
+a{font-family: 'Raleway', sans-serif;
+  color: rgb(142,120,97);
+  background-color: rgba(211,209,193,.5);
+  padding: .8em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;}
+
+a:hover{background-color: rgba(211,209,193,.8);}
+
+.logo img{display: block;
+  align: center;
+  margin: 1em;}
 
   /* First Row */
 .first-row{max-width: 800px;}
