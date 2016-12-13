@@ -4,34 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title Goes Here</title>
-
+    <title>Aroma</title>
     <meta name="description" content="Aroma Homepage">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neuton:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-
   </head>
   <body>
-       <!-- The page content goes here -->
-    <nav>
-      <div class= "span">
-        <img class="logo" src="images/aromalogocolor.svg">
-      </div>
-      <ul>
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
-            <img src="images/ham.svg">
-          </a>
-          <div class="dropdown-content" id="myDropdown">
-            <h1><a href="index.html">Home</a></h1>
-            <h1><a href="menu.html">Menu</a></h1>
-            <h1><a href="about.html">About</a></h1>
-            <div class="two-column">
-          </div>
-        </li>
-      </ul>
-    </nav>
+    <nav class="dropdown">
+      <span class="hamburger"><img src="images/ham.svg"></span>
+      <div class="dropdown-content">
+        <a href="index.html"><h1>Home</h1></a>
+        <a href="index.html"><h1>Menu</h1></a>
+        <a href="index.html"><h1>About</h1></a>
+    </div>
+    <div class="logo">
+    <img src="images/aromalogocolor.svg">
+    </div>
+    <div class="menu-text">
+      <a href="index.html"><h1>Home</h1></a>
+      <a href="index.html"><h1>Menu</h1></a>
+      <a href="index.html"><h1>About</h1></a>
+    </div>
+  </nav>
+  
      <main>
     <div class="splash-img">
       <div class="spanred">
@@ -78,38 +74,6 @@
 </div>
  </div>
   </main>
-
-  <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-
-<<<<<<< HEAD
-       <h2>Hours</h2>
-       <ul>
-         <li><h3>Monday-Friday:</h3> 6:00AM - 10:30PM</li>
-         <li><h3>Saturday:</h3> 7:00AM - 3:00PM</li>
-         <li><h3>Sunday:</h3> 7:30AM - 3:00PM</li>
-       </ul>
-=======
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var d = 0; d < dropdowns.length; d++) {
-      var openDropdown = dropdowns[d];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
->>>>>>> origin/master
-
-         <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
   </body>
 </html>

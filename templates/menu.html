@@ -12,22 +12,22 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
 </head>
 <body>
-<nav>
-  <div class="span">
-    <img class="logo" src="images/aromalogocolor.svg">
+
+  <nav class="dropdown">
+    <span class="hamburger"><img src="images/ham.svg"></span>
+    <div class="dropdown-content">
+      <a href="index.html"><h1>Home</h1></a>
+      <a href="index.html"><h1>Menu</h1></a>
+      <a href="index.html"><h1>About</h1></a>
   </div>
-  <ul>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">
-        <img src="images/ham.svg">
-      </a>
-      <div class="dropdown-content" id="myDropdown">
-        <h1><a href="index.html">Home</a></h1>
-        <h1><a href="menu.html">Menu</a></h1>
-        <h1><a href="about.html">About</a></h1>
-      </div>
-    </li>
-  </ul>
+  <div class="logo">
+  <img src="images/aromalogocolor.svg">
+  </div>
+  <div class="menu-text">
+    <a href="index.html"><h1>Home</h1></a>
+    <a href="index.html"><h1>Menu</h1></a>
+    <a href="index.html"><h1>About</h1></a>
+  </div>
 </nav>
 <main>
     <div class="splashtwo-img viewport" content="width=device-width, initial-scale=1.0">
@@ -115,6 +115,8 @@
 </div>
 </div>
       <h1>Pastries</h1>
+      <div class="quad-flex">
+
       <div class="menu-box">
       <div class="menu-content">
       <div class="two-column">
@@ -140,34 +142,12 @@
   </div>
 </div>
 </div>
+</div>
 <footer>
 
 </footer>
     </main>
   </body>
-
-  <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var d = 0; d < dropdowns.length; d++) {
-      var openDropdown = dropdowns[d];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
          <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
 
 </html>

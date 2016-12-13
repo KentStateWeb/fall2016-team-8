@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin: 0;}
 
+<<<<<<< Updated upstream
   @media screen and (min-width: 400px){
 	nav ul{
 		display: flex;
@@ -13,7 +14,65 @@ nav ul{list-style-type: none;
 	color: rgb(142,120,97);
   padding: .75em;
   font-size: 80%}
+=======
+>>>>>>> Stashed changes
 
+
+  .dropdown {
+      position: relative;
+      display: inline-block;
+      background-color: black;
+      height: 50px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      position: fixed;
+      z-index: 99;
+      top: 0;
+      left: 0;
+      display: flex;
+  }
+
+  .logo {
+    height: auto;
+    width: 200px;
+    margin: auto;
+  }
+
+  .hamburger {
+    float: left;
+    padding: 15px 0px 0px 15px;
+  }
+
+  .hamburger img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .dropdown-content {
+      margin-top: 50px;
+      height: 800px;
+      display: none;
+      position: absolute;
+      background-color: rgba(88,0,13,1);
+      min-width: 160px;
+      padding: 12px 16px;
+  }
+
+  .dropdown-content a {
+    color: white;
+  }
+
+  .dropdown-content a:hover {
+    color: rgb(146,198,60);
+  }
+
+
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+/*main*/
 header{
 background-image: url("../images/coffee-beans-with-spoon_gradient.jpg");
 background-size: cover;
@@ -171,4 +230,136 @@ text-align:center;}
             background-size: auto;
             background-position: center;
             background-repeat: no-repeat;}
+        }
+
+        @media screen and (max-width: 800px) {
+          .menu-text{
+            visibility: hidden;
+          }
+        }
+
+        @media screen and (min-width: 800px) {
+         .dropdown {
+           height: 75px;
+        }
+
+        .hamburger {
+          visibility: collapse;
+          width: 1px;
+        }
+
+        .logo {
+          float: left;
+          margin: 15px 20px 0px 20px;
+          width: 200px;
+        }
+
+        .dropdown-content {
+          visibility: hidden;
+        }
+
+        .menu-text {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          padding: 27px 0px 0px 0px;
+          max-width: 800px;
+          right: 0;
+        }
+
+        .menu-text a:hover {
+          background-color: rgba(88,0,13,.75);
+        }
+
+        .menu-text a {
+          font-size: 50%;
+          padding: 0px 6px 0px 50px;
+          margin: 0px;
+          color: white;
+        }
+
+        .menu-text h1 {
+          padding: 10px 50px 0px 0px;
+          margin: auto;
+        }
+
+        @media screen and (min-width: 1000px) {
+
+          .span {
+            margin: auto;
+          }
+
+          .spanred {
+            border: 10px solid white;
+          }
+
+          .scroll {
+            margin-top: 800px;
+          }
+
+          .menu-content {
+            margin: 5px 5px 50px 5px;
+            padding: 50px;
+            width: 500px;
+            height: 500px;
+          }
+
+          .home-content {
+            margin-top: 1050px;
+            padding: 50px 0px 100px 0px;
+          }
+
+          .home-content .menu-content{
+            padding: 50px 100px 50px 100px;
+          }
+
+          .home-content h1 {
+            margin-top: 50px;
+          }
+
+          .splash-img {
+            height: 100%;
+          }
+
+
+            .splash-img .spanred {
+              margin-top: 200px;
+              width: 40%;
+              padding: 50px;
+            }
+
+            .splashtwo-img h1 {
+                font-size: 300%;
+                width: 75%;
+                margin: auto;
+                margin-top: 100px;
+              }
+
+              .quad-flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+              }
+
+              .menu-box {
+                justify-content: center;
+              }
+
+        }
+
+        @media screen and (min-width: 1505px) {
+
+          .menu-content {
+          width: auto;
+        }
+
+          .splashtwo-img h1 {
+            font-size: 500%;
+          }
+
+          .menu-box {
+          display: flex;
+          flex-direction: row;
+        }
+
         }
