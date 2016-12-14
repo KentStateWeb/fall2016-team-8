@@ -372,9 +372,10 @@ footer h3 {
       }
 
       .menu-box {
+        display: flex;
         justify-content: center;
+        flex-direction: row;;
       }
-
 }
 
 @media screen and (min-width: 1505px) {
